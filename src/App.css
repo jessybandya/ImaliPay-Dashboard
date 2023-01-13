@@ -1,0 +1,112 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+  .desc{
+    display: none;
+  }
+}
+@media  screen and (min-width:800px) {
+.nav-bar-button{
+  display: none;
+}
+}
+
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
+.Navbar{
+/* height: 0px;
+left: 0px;
+top: 82px;
+*/
+border: 1.5px solid #E5E5E5; 
+}
+.rightNavSide{
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.div-2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+  margin-top: 30px;
+}
+.div-2-button{
+	box-sizing: border-box;
+  padding: 14px 16px;
+color:'#222222';
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 10px;
+}
+.search-div{
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+width: 447px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 10px;
+}
+.search-icon{
+ padding: 8px;
+};
+
+
+
+@media  screen and (min-width:800px) {
+.customerprofilediv3{
+    color: red;
+  }
+}
+
+.loader{
+  width: 25px;
+  height: 25px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background: #008000;
+}
