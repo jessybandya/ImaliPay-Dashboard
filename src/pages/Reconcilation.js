@@ -698,8 +698,8 @@ const Defaulters = () => {
     aria-describedby="alert-dialog-slide-description"
   >
     <DialogContent 
+    className='reconcile-modal'
     style={{
-      width:380,
       backgroundColor: '#FFFFFF',
       boxShadow: '0px 4px 20px rgba(34, 34, 34, 0.05)',
       borderRadius:8,
@@ -789,11 +789,12 @@ const Defaulters = () => {
 >
   <DialogContent
   style={{
-    width:380,
     backgroundColor: '#FFFFFF',
     boxShadow: '0px 4px 20px rgba(34, 34, 34, 0.05)',
     borderRadius:8,
-    display:'block'
+    display:'block',
+    width:'100%',
+
   }}
   >
    <div style={{display:'flex',alignItems:'center',gap:5}}>
@@ -804,7 +805,7 @@ const Defaulters = () => {
     width:32,
     backgroundColor:'#EFEFEF',
     borderRadius:14,
-    cursor:'pointer'
+    cursor:'pointer',
    }}
    ><ArrowBackIosIcon style={{fontSize:20,margin:7}}/></span><span style={{color:'#222222',fontSize:14,fontWeight:'400'}}>Go Back</span>
    </div>
@@ -827,7 +828,7 @@ const Defaulters = () => {
    </div>
 
    <button
-   style={{backgroundColor:'#80B539',borderRadius:10,color:'#fff',width:'100%',height:50,marginTop:20}}
+   style={{backgroundColor:'#80B539',borderRadius:10,color:'#fff',width:300,height:50,marginTop:20}}
    >
     Submit
    </button>
@@ -844,7 +845,6 @@ aria-describedby="alert-dialog-slide-description"
 >
 <DialogContent
 style={{
-  width:380,
   backgroundColor: '#FFFFFF',
   boxShadow: '0px 4px 20px rgba(34, 34, 34, 0.05)',
   borderRadius:8,
@@ -895,7 +895,6 @@ aria-describedby="alert-dialog-slide-description"
 >
 <DialogContent
 style={{
-  width:380,
   backgroundColor: '#FFFFFF',
   boxShadow: '0px 4px 20px rgba(34, 34, 34, 0.05)',
   borderRadius:8,
@@ -944,7 +943,6 @@ aria-describedby="alert-dialog-slide-description"
 >
 <DialogContent
 style={{
-  width:380,
   backgroundColor: '#FFFFFF',
   boxShadow: '0px 4px 20px rgba(34, 34, 34, 0.05)',
   borderRadius:8,

@@ -11,6 +11,7 @@ import Defaulters from './pages/Defaulters';
 import Fulfilments from './pages/Fulfilments';
 import FulfilmentDetails from './pages/FulfilmentDetails';
 import Reconcialtion from './pages/Reconcilation';
+import Customers from './pages/Customers';
 
 
 const App = () => {
@@ -75,6 +76,7 @@ const App = () => {
                 <Route path="/fulfilments" element={<Fulfilments />} />
                 <Route path="/fulfilment-details" element={<FulfilmentDetails />} />
                 <Route path="/Reconciliation" element={<Reconcialtion />} />
+                <Route path="/Customers" element={<Customers />} />
                 <Route path="*" element={<Navigate to="/Overview" />} />
               </Routes>
             </div>
